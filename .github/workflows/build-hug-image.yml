@@ -43,7 +43,7 @@ jobs:
           tags: |
             ghcr.io/${{ github.repository_owner }}/hugws:latest
           labels: |
-            org.opencontainers.image.source=https://github.com/${{ github.repository }}
+            org.opencontainers.image.source=https://chenpi.com/${{ github.repository }}
             org.opencontainers.image.description=http server
             org.opencontainers.image.licenses=MIT
           cache-from: type=gha
